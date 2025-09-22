@@ -36,7 +36,22 @@
 
   <h2>Contact</h2>
   <p>Email: hizbullah@gmail.com</p>
-  <p>GitHub: <a href="https://github.com/Hizbullah">github.com/hizbullhah</a></p>
+  <p>GitHub: <a href="https://github.com/hizbullha">github.com/hizbullha</a></p>
+
+<hr>
+
+  <h2>Try It:</h2>
+  <p>Type something and click "Print":</p>
+  <input type="text" id="userInput">
+  <button onclick="showMessage()">Print</button>
+  <p><b>Output:</b> <span id="output"></span></p>
+
+  <script>
+    function showMessage() {
+      var text = document.getElementById("userInput").value;
+      document.getElementById("output").innerText = text;
+    }
+  </script>
 
 </body>
 </html>
